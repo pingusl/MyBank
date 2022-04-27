@@ -5,7 +5,7 @@ console.log(arrayAccountsObject[0]);
 const Accounts = (props) => {
   return (
     <div className="app-accounts">
-      <Account account={0} />
+      <Account account={arrayAccountsObject[0]} />
     </div>
   );
 };
